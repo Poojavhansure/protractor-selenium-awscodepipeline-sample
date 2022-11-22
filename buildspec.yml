@@ -19,6 +19,6 @@ phases:
       - protractor single.conf.js
 artifacts:
   files:
-      - '**/*'
-  base-directory: 'dist*'
+    - buildspec.yml
+    - build/*
 discard-paths: yes
